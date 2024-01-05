@@ -24,8 +24,8 @@ jobs:
 
       - name: Create & push tag if not exists
         run: |
-          git config --local user.email "emnalmdr@gmail.com"
-          git config --local user.name "eminalemdar"
+          git config --global user.email "emnalmdr@gmail.com"
+          git config --global user.name "eminalemdar"
           
           if git rev-parse "v${VERSION}" >/dev/null 2>&1; then
             echo "Tag v${VERSION} already exists"
