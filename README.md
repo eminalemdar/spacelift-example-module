@@ -26,7 +26,7 @@ module "example-s3-module" {
 
 | Name | Version |
 |------|---------|
-| <a name="requirement_aws"></a> [aws](#requirement\_aws) | >= 4.47 |
+| <a name="requirement_aws"></a> [aws](#requirement\_aws) | ~> 4.57.0 |
 
 ## Providers
 
