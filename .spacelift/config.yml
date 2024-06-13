@@ -1,5 +1,5 @@
 version: 1
-module_version: 0.0.8
+module_version: 0.0.9
 
 test_defaults:
   before_init: ["terraform fmt -check"]
@@ -8,4 +8,4 @@ tests:
   - name: Default test
     environment:
       TF_VAR_aws_region: "eu-west-1"
-      TF_VAR_bucket_name: "example-module-spacelift-ea8"
+      TF_VAR_bucket_name: "example-module-spacelift-ea9"
